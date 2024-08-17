@@ -1,0 +1,637 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    background-image: url("bg.jpg");
+    height: 430px;
+    background-position: center center;
+    background-size: max(10px, 1710px);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    position: relative;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+div.app {
+    font-size: medium;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+div.navi {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+    left: 700px;
+}
+
+div.tab {
+    position: relative;
+    left: 20px;
+}
+
+div.box {
+    width: 50vw;
+    color: white;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 60px;
+    left: 400px;
+
+}
+
+div.name {
+    align-self: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 850;
+    font-style: italic;
+}
+
+div.Discover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    align-self: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+div.location {
+    background-color: white;
+    height: 50px;
+    width: 760px;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+input.kol {
+    background-color: white;
+    border: none;
+    padding: 12px;
+    outline: none;
+    font-size: medium;
+}
+
+button.btn {
+    position: relative;
+    left: 12px;
+    border: none;
+    background-color: white;
+}
+
+input.locpic {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+input.drop {
+    position: relative;
+    top: 10px;
+    right: 18px;
+}
+
+span.new {
+    font-size: large;
+}
+
+span.division {
+    position: relative;
+    right: 15px;
+    color: rgb(199, 205, 205);
+    font-size: x-large;
+}
+
+button.sr {
+    border: none;
+    width: 100px;
+}
+
+input.search {
+    background-color: white;
+    border: none;
+    padding: 13px;
+    outline: none;
+    font-size: medium;
+    width: 300px;
+    position: relative;
+    right: 5px;
+}
+
+input.sch {
+    position: relative;
+    top: 6px;
+    right: 4px;
+}
+
+div.odn {
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 210px;
+    left: 207px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 226, 226);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.odn:hover{
+    transform: scale(1.06);
+}
+
+input.online {
+    position: relative;
+    top: -60px;
+    display: block;
+}
+
+div.write {
+    background-color: white;
+    color: rgb(54, 54, 54);
+    position: absolute;
+    top: 160px;
+    width: 350px;
+    height: 90px;
+    padding: 20px;
+}
+
+div.order {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+div.normal {
+    color: rgb(40, 130, 130);
+    font-weight: 100;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.dining {
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 210px;
+    left: 225px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 226, 226);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+}
+.dining:hover{
+    transform: scale(1.06);
+}
+
+div.night {
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 210px;
+    left: 243px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 226, 226);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+}
+.night:hover:hover{
+    transform: scale(1.06);
+}
+div.collection {
+    width: 1000px;
+    position: relative;
+    top: 300px;
+    left: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.big {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+span.small {
+    color: rgb(79, 79, 79);
+    font-size: large;
+    font-weight: lighter;
+}
+
+span.arrow {
+    color: rgb(162, 167, 167);
+    font-size: medium;
+    position: relative;
+    left: 170px;
+    cursor: pointer;
+}
+.arrow:hover{
+    color: rgb(122, 124, 124)
+}
+
+input.kolarrow{
+    position: relative;
+    top: 1.9px;
+}
+
+div.friend {
+    height: 310px;
+    width: 263px;
+    position: relative;
+    top: 330px;
+    left: 207px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 7px;
+    border: 1px solid rgb(221, 226, 226);
+    cursor: pointer;
+}
+
+div.something {
+    position: absolute;
+    top: 240px;
+    width: 350px;
+    height: 50px;
+    padding: 15px;
+}
+
+input.fri {
+    display: block;
+}
+
+div.first {
+    opacity: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+div.second {
+    color: white;
+    font-weight: 400;
+}
+
+div.blank {
+    position: absolute;
+    background-color: black;
+    background: linear-gradient(to top, black, transparent);
+    opacity: 80%;
+    top: 1px;
+    width: 350px;
+    height: 360px;
+}
+
+input.whitearrow {
+    position: relative;
+    top: 2.6px;
+}
+
+div.Popular {
+    width: 1000px;
+    position: relative;
+    top: 440px;
+    left: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(49, 49, 49);
+}
+
+span.uni {
+    color: rgb(41, 40, 40);
+}
+
+div.one {
+    padding: 15px;
+    color: rgb(28, 28, 28);
+    font-weight: 100;
+    position: relative;
+    top: 480px;
+    left: 210px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+    width: 325px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    outline: black;
+}
+.one:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);;
+}
+
+div.final{
+    display: flex;
+    flex-direction: row;
+}
+input.great{
+    position: relative;
+    bottom: 8px;
+    left: 230px;
+}
+span.top{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+span.bottom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color:rgb(49, 49, 49);
+    position: relative;
+    top: 10px;
+}
+
+input.d{
+    position: relative;
+    top: 24px;
+    left: 110px;
+
+}
+
+span.see{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 18px;
+    left: 100px;
+}
+
+div.share{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    font-weight: 400;
+    width: 1519px;
+    height: 1000px;
+    background-color: rgb(255, 251, 247);
+    position: relative;
+    top: 620px;
+}
+
+span.Get{
+    position: relative;
+    top: 50px;
+    left: 700px;
+}
+div.mobile{
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 420px;
+}
+
+div.send{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(108, 106, 106);
+    font-weight: lighter;
+    position: relative;
+    top: 70px;
+    left: 705px;
+}
+
+div.select{
+    width: 300px;
+    position: relative;
+    bottom: 160px;
+    left: 710px;
+    color: rgb(239, 79, 95);
+    accent-color: rgb(239, 79, 95);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input.mail{
+    background-color: white;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    padding: 12px;
+    outline: none;
+    font-size: 18px;
+    width: 290px;
+    height: 25px;
+    font-size: large;
+    font-weight: 100;
+}
+
+div.sh{
+    width: 110px;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    font-size: medium;
+    position: relative;
+    bottom: 50px;
+    left: 330px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sh:hover{
+    background-color: rgb(244, 40, 60);
+}
+
+input.g{
+    position: relative;
+    bottom: 10px;
+}
+
+input.apple{
+    position: relative;
+    bottom: 10px;
+    left: 13px;
+}
+
+div.gplay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(162, 167, 167);
+}
+
+div.exp{
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(63, 63, 63);
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+
+}
+
+div.cuisine{
+    width: 1030px;
+    padding: 23px;
+    font-size: 19.9px;
+    border: 1px solid rgb(231, 227, 227);
+    border-radius: 6px;
+    background-color: white;
+    color: rgb(79, 78, 78);
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+input.a{
+    position: relative;
+    left: 780px
+}
+
+input.b{
+    position: relative;
+    left: 710px;
+}
+
+input.c{
+    position: relative;
+    left: 802px;
+}
+
+input.x{
+    position: relative;
+    left: 826px;
+}
+
+div.space{
+    font-size: 20px;
+}
+
+div.foot{
+    width: 1519px;
+    height: 1150px;
+    background-color: rgb(246, 245, 242);
+}
+
+span.foot-logo{
+    position: relative;
+    top: 670px;
+    left: 255px;
+}
+
+span.country{
+    color:rgb(66, 65, 65) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid rgb(164, 164, 164);;
+    border-radius: 5px;
+    position: relative;
+    top: 670px;
+    left: 937px;
+}
+
+input.globe{
+    position: relative;
+    top: 7px;
+}
+
+div.separation{
+    position: relative;
+    top: 120px;
+    right: 880px;
+    width: 1100px;
+    height: 1.5px;
+    background-color: rgb(184, 184, 184);
+}
+
+div.about{
+    width: 200px;
+    position: relative;
+    top: 720px;
+    left: 255px;
+    line-height: 2;
+}
+
+div.head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px
+}
+
+div.cont{
+    color:rgb(125, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.it:hover{
+    color: rgb(81, 80, 80);
+}
+
+div.Zomaverse{
+    width: 200px;
+    position: relative;
+    top: 482px;
+    left: 460px;
+    line-height: 2;
+}
+
+div.rest{
+    width: 200px;
+    position: relative;
+    top: 243px;
+    left: 660px;
+    line-height: 2;
+}
+
+div.learn{
+    width: 200px;
+    position: relative;
+    top: 153px;
+    left: 930px;
+    line-height: 2;
+}
+
+div.social{
+    width: 200px;
+    top: 4px;
+    position: relative;
+    left: 1130px;
+    line-height: 2;
+}
+
+div.z{
+    font-weight: 100;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:  rgb(122, 121, 121);;
+    width: 1200px;
+    position: relative;
+    top: 150px;
+    right: 881px;
+}
